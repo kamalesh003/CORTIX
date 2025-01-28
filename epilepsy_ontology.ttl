@@ -1,0 +1,19 @@
+@prefix cortix: <http://cortix/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cortix:Patient a rdf:Class .
+cortix:Seizure a rdf:Class .
+cortix:StressLevel a rdf:Class .
+
+cortix:hasStressLevel a rdf:Property ;
+    rdfs:domain cortix:Patient ;
+    rdfs:range cortix:StressLevel .
+
+cortix:hasSeizureRisk a rdf:Property ;
+    rdfs:domain cortix:Patient ;
+    rdfs:range xsd:float .
+
+cortix:PT-1138 a cortix:Patient ;
+    cortix:hasStressLevel "68"^^xsd:integer ;
+    cortix:hasSeizureRisk "0.75"^^xsd:float .
