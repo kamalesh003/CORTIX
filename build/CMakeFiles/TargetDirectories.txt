@@ -1,0 +1,3 @@
+C:/Users/Dell/Downloads/SNN/cortix/build/CMakeFiles/cortix.dir
+C:/Users/Dell/Downloads/SNN/cortix/build/CMakeFiles/edit_cache.dir
+C:/Users/Dell/Downloads/SNN/cortix/build/CMakeFiles/rebuild_cache.dir
